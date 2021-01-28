@@ -4,13 +4,12 @@
 
 * [1. Preámbulo](#1-preámbulo)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [9. Checklist](#9-checklist)
+* [3. Criterios de aceptación mínimos del proyecto](#3-criterios-de-aceptación-mínimos-del-proyecto)
+* [4. Criterios de aceptación adicionales](#4-criterios-de-aceptación-adicionales)
+* [5. Recomendaciones generales](#5-recomendaciones-generales)
+* [6. Recursos y temas relacionados](#6-recursos-y-temas-relacionados)
+* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
+* [8. Checklist](#8-checklist)
 
 ***
 
@@ -150,7 +149,7 @@ Los tests unitarios (pruebas) deben cubrir un mínimo del 70% de _statements_, _
 El _boilerplate_ ya contiene el _setup_ y configuración necesaria para ejecutar los tests (pruebas) así como _code coverage_ para ver el nivel de cobertura de los tests usando el comando `npm test`.
 
 
-### 3.6 Sobre tus Scripts / Archivos
+#### 3.5.3 Sobre tus Scripts / Archivos
 * `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
   así como una introducción a la aplicación, su funcionalidad y decisiones de
   diseño que tomaron.
@@ -170,7 +169,7 @@ El _boilerplate_ ya contiene el _setup_ y configuración necesaria para ejecutar
 * `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
 
-## 6. Criterios de aceptación adicionales
+## 4. Criterios de aceptación adicionales
 Si te alcanza el tiempo y las ganas para explorar un poco más, intenta:
 
 * Cifrar minúsculas, ñ, números, etc. El _boilerplate_ incluye algunos tests
@@ -180,16 +179,29 @@ Si te alcanza el tiempo y las ganas para explorar un poco más, intenta:
 
 ***
 
-## 7. Recomendaciones
+## 5. Recomendaciones generales
 
-### 7.1 Primeros pasos, tu prototipo en papel
+Pierde el miedo a preguntar a tus _coaches_ y a tus compañeras. Estás aquí
+porque quieres aprender. Si ya supieras estarías trabajando como _developer_ ;)
+
+Hazte amiga de Trello. No solamente te ayudará a organizar tu trabajo, es
+también una excelente manera de ir razonando sobre los pasos que seguirás,
+en qué orden hacerlos, qupé necesitas aprender, etc.
+
+Al prinncipio, Git y GitHub te resultarán misteriosos, no les temas y úsalos a
+tu favor. Procura hacer _commits_ constantemente, eso te ayudará a tener un respaldo
+en todo momento y podrás acceder a él siempre que no necesites. ¡No lo dejes al final!
+
+AAnímate a correr los _tests_ cuanto antes para que te ayude a la construcción de tus funciones.
+
+### 5.1 Primeros pasos, tu prototipo en papel
 Comienza por la ideación y el prototipado de tu proyecto. Dibuja en papel y lápiz
 exactamente cada elemento que tendrá tu interfaz y prueba con algunas personas
 para ver si se comprende, si es suficientemente intuitivo, etc.
 
 Este paso es fundamental para que tú misma comprendas si tus ideas "funcionan"
 fuera de tu cabeza. Te ayudará a entender mejor todo lo que tienes que hacer.
-**No inviertas demasiado tiempo en esto. Con un par de horas debería ser más
+**No inviertas demasiado tiempo en esto. Con uns pocas horas debería ser más
 que suficiente.**
 
 A partir de acá puedes seguir por diferntes caminos. Es como armar un rompecabezas
@@ -197,28 +209,30 @@ o _puzzle_, puedes comenzar por una esquina, luego otra, un pedazo de un borde,
 de otro, etc. Poco a poco te será más fácil ver "el todo" y entender cómo encajan
 todas las partes.
 
-Te sugerimos comenzar por lo que menos sabes. Evita caer en el juego de
+Te sugerimos seguir por lo que menos sabes. Evita caer en el juego de
 "la ilusión del avance". Seguramente ya algo sabes de HTML y CSS y si te quedas
 trabajando mucho en eso tendrás la sensación de estar "avanzando", pregúntante
 si estás "aprendiendo". No estás acá para "entregar proyectos", estás para aprender.
 
-### 7.2 Achicando el gran problema en problemas más pequeños
-Un "superpoder" que esperamos puedas desarrollar es el de definir "mini-proyectos"
-que te acerquen paso a paso a la solución del "gran proyecto". Es el equvalente a
-comenzar armando esquinas o bordes del rompecabezas/puzzle sin saber necesariamente
-cómo encajarán al final. Déjate llevar, explora. Estas son algunas sugerencias:
+### 5.2 Achicando el gran problema en problemas más pequeños
+Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el de
+definir "mini-proyectos" que te acerquen paso a paso a la solución del
+"gran proyecto". Es el equvalente a comenzar armando esquinas o bordes del
+rompecabezas/puzzle sin saber necesariamente cómo encajarán al final. Déjate
+llevar y explora. Estas son algunas sugerencias:
 
 #### "Mover" un valor de una caja de texto a otra
 Crea una interfaz simple con 2 cajas de texto y un botón. Si escribo algo en la
 caja de texto 1 y le doy click al botón, quiero que lo que escribí se "mueva"
 hacia la caja 2.
 
-Para lograr esto tendrás que aprender a detectar un evento en el navegador (click), identificar un elemento de tu interfaz para obtener el valor/contenido (caja de texto 1), "escribir" un valor en otro elemento de la interfaz (caja de texto 2).
+Para lograr esto tendrás que aprender a: detectar un evento en el navegador (_click_), identificar un elemento de tu interfaz para obtener su contenido/valor (la caja de texto 1), "escribir" un valor en otro elemento de la interfaz (caja de texto 2).
 
-#### "Convertir" A en su código ASCII
-Utiliza la interfaz del mini-proyecto anterior. Ahora quiero escribir A (mayúscula)
-en la caja de texto 1 y que cuando le de click al botón, aparezca el código ASCII
-de A en la caa de texto 2.
+#### "Convertir" una letra en su código ASCII
+Pensando en la misma interfaz del mini-proyecto anterior (2 cajas de texto y 1 botón).
+Quiero escribir una letra mayúscula (A-Z sin Ñ) en la caja de texto 1 y que
+cuando le de _click_ al botón, aparezca el código ASCII de la letra que escribí en
+la caja de texto 2.
 
 #### "Cifrar" una sola letra con un desplazamiento (_offset_) de 3
 Cuando escriba cualquier letra mayúscula en la caja de texto 1 y le de click al
@@ -235,9 +249,9 @@ Ahora tendrás que lidiar con el principio y el fin del alfabeto.
 Fíjate que la complejidad es creciente. Tú miasma vas agregando complejidad a
 medida que avanzas. Nota que estamos evitando trabajar "linealmente".
 
-### 7.3 Tu caja de arena para "jugar"
+### 5.3 Tu caja de arena para "jugar"
 Así como existen las cajas de arena para que las niñas jueguen en un espacio
-seguro y controlado", tú también debes procurarte condiciones "controladas" en
+seguro y controlado", tú también puedes procurarte condiciones "controladas" en
 las que puedas identificar lo que te falla. Si comeinzas explorando y probando
 en archivos con muchas líenas de código y muchas cosas sucediento al mismo tiempo,
 será difícil que sepas qué falla y/o por qué no funciona.
@@ -246,7 +260,7 @@ Para probar esos mini-proyectos, puedes hacerlo en archhivos aparte del proyecto
 en los que tú pone úcamente lo indispensable que quieres probar. también puedes
 utilizar CodePen o Replit (por ejemplo)
 
-### 8. Herramientas y configuración de tu PC
+### 5.4 Herramientas y configuración de tu PC
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
@@ -277,35 +291,35 @@ utilizar CodePen o Replit (por ejemplo)
    `npm start` para arrancar el servidor web y dirígete a
    `http://localhost:5000` en tu navegador.
 
-### 9. Recursos y temas relacionados
+## 6. Recursos y temas relacionados
 
-A continuación un video de Michelle que te lleva a través de la fórmula
-matemática del Cifrado César y un par de cosas más que debes saber para
-resolver este proyecto. ¡Escúchala con detenimiento y sigue sus consejos! :)
+### 6.1 fórmula matemática del Cifrado César y un par de cosas más
+A continuación un video de Michelle ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
 [Link](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
-Terminal y shell de UNIX:
+### 6.2 Terminal y shell de UNIX:
 
 [![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
 [Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
-Control de versiones y trabajo colaborativo con Git y GitHub:
+### 6.3 Control de versiones y trabajo colaborativo con Git y GitHub:
 
 [![Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 
 [Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
-Diseño de experiencia de usuario (User Experience Design):
+### 6.4 Temas relacionados
+#### Diseño de experiencia de usuario (User Experience Design):
 
 * Ideación
 * Prototipado (sketching)
 * Testeo e Iteración
 
-Desarrollo Front-end:
+#### Desarrollo Front-end:
 
 * Valores
 * Tipos
@@ -317,19 +331,17 @@ Desarrollo Front-end:
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 * [Documentación de NPM](https://docs.npmjs.com/)
 
-Organización del Trabajo:
+#### Organización del Trabajo:
 
 * [Metodologías Ágiles](https://www.youtube.com/watch?v=v3fLx7VHxGM)
 * [Scrum en menos de 2 minutos](https://www.youtube.com/watch?v=TRcReyRYIMg)
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
-  
-## 10. Objetivos de aprendizaje
 
-Trabajando de forma individual o en dupla, aprenderás a construir una aplicación web que interactuará
-con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
-como tecnologías.
+## 7. Objetivos de aprendizaje
+<details>
+  <summary>!Click para expandir¡</summary>
 
 ### HTML y CSS
 
@@ -373,18 +385,21 @@ como tecnologías.
 * [ ] Crear prototipos para obtener feedback e iterar.
 * [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
+</details>
 
-## 9. Checklist
+## 8. Checklist
+<details>
+  <summary>!Click para expandir¡</summary>
 
 Esta sección está para ayudarte a llevar un control de lo que vas completando.
 
-### Parte Obligatoria
+### Criterios de aceptación mínimos
 
 * [ ] `README.md` incluye info sobre proceso y decisiones de diseño.
-* [ ] `README.md` explica claramente quiénes son los usuarios y su relación con
+* [ ] `README.md` explica quiénes son las usuarias y su relación con
   el producto.
-* [ ] `README.md` explica claramente cómo el producto soluciona los
-  problemas/necesidades de los usuarios.
+* [ ] `README.md` explica cómo el producto soluciona los problemas/necesidades
+de las usuarias.
 * [ ] Usa VanillaJS.
 * [ ] No utiliza `this`.
 * [ ] Implementa `cipher.encode`.
@@ -400,8 +415,10 @@ Esta sección está para ayudarte a llevar un control de lo que vas completando.
 * [ ] Interfaz permite escribir un texto para ser descifrado.
 * [ ] Interfaz muestra el resultado del descifrado correctamente.
 
-### Parte Opcional: "Hacker edition"
+### Criterios de aceptación adicionales (opcionales)
 
 * [ ] Cifra/descifra minúsculas
 * [ ] Cifra/descifra _otros_ caracteres (espacios, puntuación, `ñ`, `á`, ...)
 * [ ] Permite usar un `offset` negativo.
+
+</details>
