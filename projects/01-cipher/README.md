@@ -6,9 +6,9 @@
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
 * [3. Criterios de aceptación mínimos del proyecto](#3-criterios-de-aceptación-mínimos-del-proyecto)
 * [4. Criterios de aceptación adicionales](#4-criterios-de-aceptación-adicionales)
-* [5. Recomendaciones generales](#5-recomendaciones-generales)
-* [6. Recursos y temas relacionados](#6-recursos-y-temas-relacionados)
-* [7. Objetivos de aprendizaje](#7-objetivos-de-aprendizaje)
+* [5. Objetivos de aprendizaje](#5-objetivos-de-aprendizaje)
+* [6. Recomendaciones generales](#6-recomendaciones-generales)
+* [7. Recursos y temas relacionados](#7-recursos-y-temas-relacionados)
 * [8. Checklist](#8-checklist)
 
 ***
@@ -181,9 +181,53 @@ Si te alcanza el tiempo y las ganas para explorar un poco más, intenta:
 
 * Permitir un _offset_ negativo.
 
+## 5. Objetivos de aprendizaje
+
+### HTML y CSS
+
+* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
+* [ ] Uso de selectores de CSS.
+* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
+
+### DOM
+
+* [ ] Uso de selectores del DOM.
+* [ ] Manejo de eventos del DOM.
+* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
+(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
+
+### JavaScript
+
+* [ ] Manipulación de strings.
+* [ ] Uso de condicionales (if-else | switch | operador ternario)
+* [ ] Uso de bucles (for | for..in | for..of | while)
+* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
+* [ ] Declaración correcta de variables (const & let)
+
+### Testing
+
+* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
+
+### Estructura del código y guía de estilo
+
+* [ ] Organizar y dividir el código en módulos (Modularización)
+* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
+* [ ] Uso de linter (ESLINT)
+
+### Git y GitHub
+
+* [ ] Uso de comandos de git (add | commit | pull | status | push)
+* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
+
+### UX
+
+* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
+* [ ] Crear prototipos para obtener feedback e iterar.
+* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+
 ***
 
-## 5. Recomendaciones generales
+## 6. Recomendaciones generales
 
 Pierde el miedo a preguntar a tus _coaches_ y a tus compañeras. Estás aquí
 porque quieres aprender. Si ya supieras, estarías trabajando como _developer_
@@ -200,7 +244,7 @@ en todo momento y podrás acceder a él siempre que lo necesites. ¡No lo dejes 
 Anímate a correr los _tests_ cuanto antes para que te ayude a la construcción de
 tus funciones.
 
-### 5.1 Primeros pasos, tu prototipo en papel
+### 6.1 Primeros pasos, tu prototipo en papel
 Comienza por la ideación y el prototipado de tu proyecto. Dibuja en papel y lápiz
 exactamente cada elemento que tendrá tu interfaz y prueba con algunas personas
 para ver si se comprende, si es suficientemente intuitivo, etc.
@@ -222,7 +266,7 @@ Si te quedas trabajando en eso tendrás la sensación de estar "avanzando", preg
 si estás "aprendiendo". No estás acá para "entregar proyectos", estás para aprender
 lo que no sabes.
 
-### 5.2 Achicando el gran problema en problemas más pequeños
+### 6.2 Achicando el gran problema en problemas más pequeños
 Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el de
 definir "mini-proyectos" que te acerquen paso a paso a la solución del
 "gran proyecto". Es el equvalente a comenzar armando esquinas o bordes del
@@ -278,7 +322,7 @@ Para probar los mini-proyectos que te proponnemos, puedes hacerlo en un
 proyecto/archivos en blanco en los que tú tienes el control y sabes exactamente
 qué es y qué hace cada cosa. También puedes utilizar CodePen o Replit (por ejemplo).
 
-### 5.4 Herramientas y configuración de tu PC
+### 6.4 Herramientas y configuración de tu PC
 
 1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
    condiciones, algo como [Atom](https://atom.io/) o
@@ -309,28 +353,28 @@ qué es y qué hace cada cosa. También puedes utilizar CodePen o Replit (por ej
    `npm start` para arrancar el servidor web y dirígete a
    `http://localhost:5000` en tu navegador.
 
-## 6. Recursos y temas relacionados
+## 7. Recursos y temas relacionados
 
-### 6.1 fórmula matemática del Cifrado César y un par de cosas más
+### 7.1 fórmula matemática del Cifrado César y un par de cosas más
 A continuación un video de Michelle ¡Escúchala con detenimiento y sigue sus consejos! :)
 
 [![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
 [Link](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
 
-### 6.2 Terminal y shell de UNIX:
+### 7.2 Terminal y shell de UNIX:
 
 [![Playlist de Terminal y shell de UNIX](https://img.youtube.com/vi/GB35Eyb-J4c/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
 [Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
-### 6.3 Control de versiones y trabajo colaborativo con Git y GitHub:
+### 7.3 Control de versiones y trabajo colaborativo con Git y GitHub:
 
 [![Playlist de control de versiones y trabajo colaborativo](https://img.youtube.com/vi/F1EoBbvhaqU/0.jpg)](https://www.youtube.com/playlist?list=PLiAEe0-R7u8k9o3PbT3_QdyoBW_RX8rnV)
 
 [Link](https://www.youtube.com/playlist?list=PLiAEe0-R7u8nGH5TEHfSTeDNIvjZFe_Yd)
 
-### 6.4 Temas relacionados
+### 7.4 Temas relacionados
 #### Diseño de experiencia de usuario (User Experience Design):
 
 * Ideación
@@ -356,54 +400,6 @@ A continuación un video de Michelle ¡Escúchala con detenimiento y sigue sus c
 * [Scrum en Detalle](https://www.youtube.com/watch?v=nOlwF3HRrAY&t=297s). No
   esperamos que hagas todo eso desde este proyecto. Iremos profundizando poco a
   poco a lo largo del -_bootcamp_.
-
-## 7. Objetivos de aprendizaje
-<details>
-  <summary>!Click para expandir¡</summary>
-
-### HTML y CSS
-
-* [ ] [Uso de HTML semántico.](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] Uso de selectores de CSS.
-* [ ] Construir tu aplicación respetando el diseño realizado (maquetación).
-
-### DOM
-
-* [ ] Uso de selectores del DOM.
-* [ ] Manejo de eventos del DOM.
-* [ ] [Manipulación dinámica del DOM.](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-(appendChild |createElement | createTextNode| innerHTML | textContent | etc.)
-
-### JavaScript
-
-* [ ] Manipulación de strings.
-* [ ] Uso de condicionales (if-else | switch | operador ternario)
-* [ ] Uso de bucles (for | for..in | for..of | while)
-* [ ] Uso de funciones (parámetros | argumentos | valor de retorno)
-* [ ] Declaración correcta de variables (const & let)
-
-### Testing
-
-* [ ] [Testeo unitario.](https://jestjs.io/docs/es-ES/getting-started)
-
-### Estructura del código y guía de estilo
-
-* [ ] Organizar y dividir el código en módulos (Modularización)
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica)
-* [ ] Uso de linter (ESLINT)
-
-### Git y GitHub
-
-* [ ] Uso de comandos de git (add | commit | pull | status | push)
-* [ ] Manejo de repositorios de GitHub (clone | fork | gh-pages)
-
-### UX
-
-* [ ] Diseñar la aplicación pensando y entendiendo al usuario.
-* [ ] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
-
-</details>
 
 ## 8. Checklist
 <details>
