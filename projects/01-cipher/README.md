@@ -69,7 +69,7 @@ debe suceder con tu proyecto para que consideremos (tú y nosotras) que lo has
 "hecho" y que lo podemos "aceptar" como "mínimamente terminado".
 
 ### 3.1 Alfabeto simplificado
-Considera solamente letras mayúsculas, sin ñ, ni números u otros caracteres:
+Considera solamente letras mayúsculas, sin ñ ni números u otros caracteres:
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
 ### 3.2 Interfaz de usuario. Lo que se ve en el navegador (UI del inglés _user interface_)
@@ -86,7 +86,7 @@ Para descifrar debe permitir a tu usuaria:
 * Ver el resultado del mensaje descifrado.
 
 ### 3.3 Repositorio del código (GitHub) y publicación de la web (GitHub Pages)
-Cuando termines y antes de ir a la sesión de _Project Feedback_ tu código deberá
+Cuando termines, y antes de ir a la sesión de _Project Feedback_, tu código deberá
 estar subido a GitHub (_commit/push_) y la interfaz será desplegada (publicada)
 usando _GitHub pages_. Si no sabes lo que es GitHub, no te preocupes, lo
 aprenderás durante este proyecto.
@@ -102,7 +102,7 @@ para definir el producto final.
 ### 3.5 Consideraciones técnicas
 Toda esta sección puede resultarte muy abrumadora. Tómalo con calma, no es
 necesario que lo comprendas todo antes de comenzar, irá teniendo sentido conforme
-vas avanzando. Recuerda que el aprendizaje no es un proceso lineal ni predecible.
+vas avanzando. Recuerda que el aprendizaje no es un proceso lineal.
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o _frameworks_, sólo JavaScript
@@ -112,7 +112,7 @@ No debes utilizar la _pseudo-variable_ `this`.
 
 #### 3.5.1 Sobre el _boilerplate_
 Llamamos **_boilerplate_** a la estructura de archivos y a toda la configuración
-de dependencias y tests de ejemplo que ya existen en este repositorio y que te servirán como una "plantilla", como un punto de partida para trabajar.
+de dependencias y _tests_ de ejemplo que ya existen en este repositorio y que te servirán como una "plantilla", como un punto de partida para trabajar.
 
 ```text
 ./
@@ -134,19 +134,23 @@ de dependencias y tests de ejemplo que ya existen en este repositorio y que te s
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 [htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
 `JavaScript` con respecto a una guía de estilos. Ambas tareas se ejecutan
-automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
+automáticamente antes de ejecutar las pruebas (_tests_) cuando usamos el comando
 `npm run test`. En el caso de `JavaScript` estamos usando un archivo de
 configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
-información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
-entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
-En cuanto a reglas/guías de estilo en sí, usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
+información sobre el _parser_ que usar (qué version de JavaScript/ECMAScript), el
+entorno (_browser_ en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
+En cuanto a reglas/guías de estilo en sí, usaremos las recomendaciones _por defecto_
+de tanto `eslint` como `htmlhint`.
 
 #### 3.5.2 Sobre los tests unitarios (pruebas)
-El _boilerplate_ incluye tests (pruebas) de ejemplo como punto de partida.
+El _boilerplate_ incluye _tests_ (pruebas) de ejemplo como punto de partida.
 
-Los tests unitarios (pruebas) deben cubrir un mínimo del 70% de _statements_, _functions_ y _lines_, y un mínimo del 50% de _branches_.
+Los _tests_ unitarios (pruebas) deben cubrir un mínimo del 70% de _statements_,
+_functions_ y _lines_, y un mínimo del 50% de _branches_.
 
-El _boilerplate_ ya contiene el _setup_ y configuración necesaria para ejecutar los tests (pruebas) así como _code coverage_ para ver el nivel de cobertura de los tests usando el comando `npm test`.
+El _boilerplate_ ya contiene el _setup_ y configuración necesaria para ejecutar
+los _tests_ (pruebas) así como _code coverage_ para ver el nivel de cobertura de
+los _tests_ usando el comando `npm test`.
 
 
 #### 3.5.3 Sobre tus Scripts / Archivos
@@ -182,17 +186,19 @@ Si te alcanza el tiempo y las ganas para explorar un poco más, intenta:
 ## 5. Recomendaciones generales
 
 Pierde el miedo a preguntar a tus _coaches_ y a tus compañeras. Estás aquí
-porque quieres aprender. Si ya supieras estarías trabajando como _developer_ ;)
+porque quieres aprender. Si ya supieras, estarías trabajando como _developer_
+y no el _bootcamp_ de Laboratoria.
 
 Hazte amiga de Trello. No solamente te ayudará a organizar tu trabajo, es
 también una excelente manera de ir razonando sobre los pasos que seguirás,
-en qué orden hacerlos, qupé necesitas aprender, etc.
+en qué orden hacerlos, identificar qué necesitas aprender, etc.
 
 Al prinncipio, Git y GitHub te resultarán misteriosos, no les temas y úsalos a
-tu favor. Procura hacer _commits_ constantemente, eso te ayudará a tener un respaldo
-en todo momento y podrás acceder a él siempre que no necesites. ¡No lo dejes al final!
+tu favor. Procura hacer _commits_ con frecuencia, eso te ayudará a tener un respaldo
+en todo momento y podrás acceder a él siempre que lo necesites. ¡No lo dejes al final!
 
-AAnímate a correr los _tests_ cuanto antes para que te ayude a la construcción de tus funciones.
+Anímate a correr los _tests_ cuanto antes para que te ayude a la construcción de
+tus funciones.
 
 ### 5.1 Primeros pasos, tu prototipo en papel
 Comienza por la ideación y el prototipado de tu proyecto. Dibuja en papel y lápiz
@@ -210,9 +216,11 @@ de otro, etc. Poco a poco te será más fácil ver "el todo" y entender cómo en
 todas las partes.
 
 Te sugerimos seguir por lo que menos sabes. Evita caer en el juego de
-"la ilusión del avance". Seguramente ya algo sabes de HTML y CSS y si te quedas
-trabajando mucho en eso tendrás la sensación de estar "avanzando", pregúntante
-si estás "aprendiendo". No estás acá para "entregar proyectos", estás para aprender.
+"la ilusión del avance". Quizás te sienteas "cómoda" trabajando en HTML y CSS
+porque lo que haces se "ve" en el navegador y puede resultarte más fácil de comprender.
+Si te quedas trabajando en eso tendrás la sensación de estar "avanzando", pregúntante
+si estás "aprendiendo". No estás acá para "entregar proyectos", estás para aprender
+lo que no sabes.
 
 ### 5.2 Achicando el gran problema en problemas más pequeños
 Un "superpoder" que esperamos puedas desarrollar durante el _bootcamp_ es el de
@@ -224,41 +232,51 @@ llevar y explora. Estas son algunas sugerencias:
 #### "Mover" un valor de una caja de texto a otra
 Crea una interfaz simple con 2 cajas de texto y un botón. Si escribo algo en la
 caja de texto 1 y le doy click al botón, quiero que lo que escribí se "mueva"
-hacia la caja 2.
+desde la caja 1 hacia la caja 2.
 
 Para lograr esto tendrás que aprender a: detectar un evento en el navegador (_click_), identificar un elemento de tu interfaz para obtener su contenido/valor (la caja de texto 1), "escribir" un valor en otro elemento de la interfaz (caja de texto 2).
 
 #### "Convertir" una letra en su código ASCII
-Pensando en la misma interfaz del mini-proyecto anterior (2 cajas de texto y 1 botón).
-Quiero escribir una letra mayúscula (A-Z sin Ñ) en la caja de texto 1 y que
-cuando le de _click_ al botón, aparezca el código ASCII de la letra que escribí en
-la caja de texto 2.
+Pensando en la misma interfaz anterior (2 cajas de texto y 1 botón). Quiero
+escribir A o B (una sola) en la caja de texto 1 y que cuando le dé _click_ al botón,
+aparezca el código ASCII de la letra en la caja de texto 2.
 
-#### "Cifrar" una sola letra con un desplazamiento (_offset_) de 3
-Cuando escriba cualquier letra mayúscula en la caja de texto 1 y le de click al
-botón, quiero que apaezca la letra cifrada en la caja de texto 2. Es decir, si
-escribo B quiero que aparezca E.
+Ahora no solamente estás "leyendo" y "escribiendo" valores en el navegador, también
+tendrás que "manipularlos" antes de "escribirlos".
 
-#### "Cifrar" tres letras con un desplazamiento de 3
-Ahora tendrás que aprender cómo ir cifrando letra por letra y ya estás mucho más
-cerca de resolver el proyecto "grande"
+#### "Cifrar" A o B con un desplazamiento (_offset_) de 3
+Cuando escriba A o B en la caja de texto 1 y le dé click al botón, quiero que
+apaezca la letra cifrada en la caja de texto 2. Por ejemplo, si escribo B
+debe aparecer E.
 
-#### "Cifrar" con un desplazamiento de 30 caracteres
-Ahora tendrás que lidiar con el principio y el fin del alfabeto.
+#### "Cifrar" una letra con un desplazamiento de 30 caracteres
+En los casos anteriores probamos con letras y con un desplazamiento que no
+implicaban llegar "más allá" de final del alfabeto. Ahora prueba con un caso que
+sí lo requiera. Por ejmplo 30 caracteres de desplazamiento. Para esto te puede
+ayudar el video de la sección "Recursos y temas relacionados". **La fórmula no es
+lo importante en este proyecto, lo importante es lo que haces con la fórmula.**
 
-Fíjate que la complejidad es creciente. Tú miasma vas agregando complejidad a
-medida que avanzas. Nota que estamos evitando trabajar "linealmente".
+#### "Cifrar" tres letras con un desplazamiento cuqlquiera
+Hasta ahora hemos explorado trabajar con una sola letra pero ¿cómo haríamos si
+son más? Para hacerlo tendrás que aprender cómo ir cifrando letra por letra y
+ya estás mucho más cerca de resolver el proyecto "grande"
+
+Fíjate que la complejidad es creciente, la clave está en definir el primer paso
+lo más simple y pequeño que puedas. Luego tú misma puedes ir agregando complejidad
+a medida que avanzas.
 
 ### 5.3 Tu caja de arena para "jugar"
 Así como existen las cajas de arena para que las niñas jueguen en un espacio
 seguro y controlado", tú también puedes procurarte condiciones "controladas" en
-las que puedas identificar lo que te falla. Si comeinzas explorando y probando
+las que puedas identificar lo que te falla. Si comienzas explorando y probando
 en archivos con muchas líenas de código y muchas cosas sucediento al mismo tiempo,
-será difícil que sepas qué falla y/o por qué no funciona.
+será difícil que sepas qué falla y/o por qué no te funciona algo que acabas de
+leer y estás segura en entender. Esto puede ser muy frustrante y hacerte perder
+mucho tiempo.
 
-Para probar esos mini-proyectos, puedes hacerlo en archhivos aparte del proyecto
-en los que tú pone úcamente lo indispensable que quieres probar. también puedes
-utilizar CodePen o Replit (por ejemplo)
+Para probar los mini-proyectos que te proponnemos, puedes hacerlo en un
+proyecto/archivos en blanco en los que tú tienes el control y sabes exactamente
+qué es y qué hace cada cosa. También puedes utilizar CodePen o Replit (por ejemplo).
 
 ### 5.4 Herramientas y configuración de tu PC
 
